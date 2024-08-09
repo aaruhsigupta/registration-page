@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+        <style>
+            body{
+                background-color: antiquewhite;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                display: flex;
+                font-family: 'Courier New', Courier, monospace;
+                height: 100vh;
+
+            }
+            .container{
+                background-color: rgb(220, 245, 238);
+                padding: 20px;
+                border-radius: 8px;
+                width: 400px;
+                box-shadow: 0 0 10px, black;
+            }
+            h2{
+                text-align: center;
+                border-radius: 10px;
+            }
+            .form-group{
+                margin-bottom: 20px;
+            }
+            .label{
+                display: block;
+                margin-bottom: 5px;
+            }
+            button{
+                position: relative;
+                left: 140px;
+                width: 25%;
+                padding: 10px;
+                background-color: rgba(168, 14, 109, 0.779);
+                font-weight: bold;
+                color: aliceblue;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Registration Page!</h2>
+            <div class="form-group">
+            <label for="name"><b>Name :</b></label>
+            <input type="text" placeholder="Enter Your Name" name="Name" id="name" required>
+        </div>
+            <br>
+            <div class="form-group">
+            <label for="name"><b>Email :</b></label>
+            <input type="text" placeholder="Enter Your Email" name="Email" id="email" required>
+            </div>
+        <br>
+        <div class="form-group">
+        <label for="pw"><b>Password :</b></label>
+            <input type="password" placeholder="Enter password" name="pw" id="pw" required>
+            <br>
+            </div>
+            <div class="form-group">
+            <label for="phn"><b>Contact No. :</b></label>
+            <input type="tel" placeholder="Phone no" name="phn" id="phn" required>
+            <br>
+            </div>
+            <button type="submit" class="submit">Submit</button>
+        </div>
+    </body>
+</html>
